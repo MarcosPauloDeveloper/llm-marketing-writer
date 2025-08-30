@@ -52,7 +52,7 @@ def generate_llm_stream(prompt_user):
 
 
 def main():
-    st.title("Content Generator for Marketing")
+    st.title("Content Generator for Marketing.")
     with st.form("content_form"):
         subject = st.text_input("Topic")
         platform = st.selectbox("Platform", [
